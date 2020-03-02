@@ -1,35 +1,78 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+#Side Quest
+An RPG quest and encounter website Maybe Magazine.
 
-Welcome USER_NAME,
+##User Stories
+As a user I want to Access an idea for a quest for my party of Roleplaying characters.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+So I can provide an entertaining quest to my players.
 
-## Gitpod Reminders
+As a user I want to Look for Quests for Dungeons and Dragons platform of RPG
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+So I can use the quest idea in the Dungeons and Dragons platform.
 
-`python3 -m http.server`
+As a user I want to Look for Quests for Pathfinder platform of RPG
 
-A blue button should appear to click: *Expose*,
+So I can use the quest idea in the Pathfinder platform.
 
-Another blue button should appear to click: *Open Browser*.
+As a user I want to Look for low level Quests
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+So I can use the quest idea for my low level party.
 
-A blue button should appear to click: *Expose*,
+As a user I want to Look for medium level Quests
 
-Another blue button should appear to click: *Open Browser*.
+So I can use the quest idea for my medium level party.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+As a user I want to Look for high level Quests
 
-## Updates Since The Instructional Video
+So I can use the quest idea for my high level party.
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+As a user I want links to Side Quests Social media.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+So that I can see Side Quests social media post for information
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+As a user I want to be able to provide feedback.
 
---------
+So that the site will be more user centric in future
 
-Happy coding!
+As a user I want to subscribe to a newsletter.
+
+So that I can receive updates on new quests available and site developments.
+
+As a user I want to submit my ideas for plot hooks.
+
+So the site can display them to the growing community.
+
+As a user I want to submit my ideas for quest Ideas.
+
+So the site can display them to the growing community.
+
+As a user I want to submit my ideas for platforms.
+
+So the site can display them to the growing community.
+
+As a user I want to submit my ideas for Adversaries.
+
+So the site can display them to the growing community.
+
+As a user I want to submit my ideas for rewards.
+
+So the site can display them to the growing community.
+
+##First release
+landing page 
+sample quest page
+contact us
+6 no. quest pages over 2 platforms
+
+##future releases
+more quest 
+more platforms
+interactive elements
+user content 
+
+##bibliography
+bootstrap
+font awsome
+Roll 20
+Dungeons and Dragons
+Pathfinder
