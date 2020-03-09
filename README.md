@@ -2,6 +2,7 @@
 An RPG quest and encounter website Maybe Magazine.
 
 ##User Stories
+
 As a user I want to Access an idea for a quest for my party of Roleplaying characters.
 
 So I can provide an entertaining quest to my players.
