@@ -1,10 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-/* Containers */
-
-
+    }
 /* Navbar */
 
 .navalert-container {
@@ -20,7 +16,7 @@ body {
     
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(1, 82, 19, 0.7);
+    background-color: rgba(0, 30, 9, 0.8);
     border: 0;
 }
 
@@ -74,16 +70,35 @@ body {
     letter-spacing: 4px;
     text-align: center;
 
-    width: 600px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
 
     padding: 10px;
 
-    background-color: rgba(1, 82, 19, 0.7);
+    background-color: rgba(0, 30, 9, 0.8);
 
-    top: 60px;
-    left: 150px;
+    top: 30px;
+    left: 30px;
     
     position: absolute;
+
+}
+
+/* Containers */
+
+.referrals h2{
+    background-color: #ffffff;
+    color: #003009
+}
+
+.referrals {
+    background-color: #ffffff;
+    color: #003009
+
+}
+
+.plot-hooks {
+    background-color: #003009;
+    color: #ffffff;
 
 }
