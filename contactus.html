@@ -45,11 +45,9 @@
             </div>
         </nav>
 
-
-
     </header>
     
-    <section>
+    <section class="form-section">
         <!--Title and intro div-->
         <div>
             <h1>Contact Us</h1>
@@ -61,8 +59,32 @@
             <p>If you have any opinion on the following please feel free to use the handy form to let us know and be included in our mailing list for future releases and monthly magazine submissions:-</p>
         </div>
         <!--form including user preference buttons-->
-        <div>
-            Plot Hooks
+        <div class="">
+            <form method="POST" action="https://formdump.codeinstitute.net/">
+                <input type="checkbox" id="plot-hooks" name="plot-hooks" value="plot-hooks">
+                <label for="plot-hooks">Plot Hooks</label>
+                <input type="checkbox" id="quest-ideas" name="quest-ideas" value="quest-ideass">
+                <label for="quest-ideas">Quest ideas</label>
+                <input type="checkbox" id="platforms" name="platforms" value="platforms">
+                <label for="platforms">Platforms</label>
+                <input type="checkbox" id="adversaries" name="adversaries" value="adversaries">
+                <label for="adversaries">Adversaries</label>
+                <input type="checkbox" id="rewards" name="rewards" value="rewards">
+                <label for="rewards">Rewards</label>
+                <h2>What's <strong>Your</strong> story needs!</h2>
+                <label for="fname">First Name:</label>
+                <input class="text-input" type="text" name="first_name" id="fname" required>
+                <label for="lname">Last Name:</label>
+                <input class="text-input" type="text" name="last_name" id="lname" required>
+                <label for="email">Email Address:</label>
+                <input class="text-input" type="email" name="email_address" id="email" required>
+                <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required>
+                We want Your thoughts!</textarea>
+                <input class="tell-us" type="submit" value="Tell us!!">
+            
+            </form>
+
+            <!--Plot Hooks
             Quest ideas
             Platforms 
             Adversaries 
@@ -74,7 +96,7 @@
 
             Your ideas here
 
-            Submit button
+            Submit button-->
         
         </div>
 
