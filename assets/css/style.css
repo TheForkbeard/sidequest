@@ -84,7 +84,7 @@ body {
 
 }
 
-/* Containers */
+/* rows */
 
 .referrals h2{
     background-color: #ffffff;
@@ -172,4 +172,94 @@ body {
 
     background-color: rgba(0, 30, 9, 0.8);
     
+}
+
+/*colours *//* adapted from resume walkthrough*/
+
+.adversaries {
+    background-color:  #003009;
+    color: #ffffff;
+}
+
+.adv-sheet-color-1 {
+    background-color: yellow;
+}
+
+.adv-sheet-color-2 {
+    background-color: blue;
+}
+
+.adv-sheet-color-3 {
+    background-color: orangered;
+}
+
+.adv-sheet-color-4 {
+    background-color: purple;
+}
+
+.adv-sheet-color-5 {
+    background-color: darkslategrey;
+}
+
+.adv-sheet-color-6 {
+    background-color: green;
+}
+
+.adv-sheet-color-7 {
+    background-color: red;
+}
+
+/* download button styling */
+
+.adv-container {
+    font-size: 0;
+}
+
+
+#adv li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#adv {
+    margin: 0;
+}
+
+.adv-sheet {
+    margin: 0;
+    height: 75px;
+    text-align: center;
+    padding: 0;
+}
+
+.adv-sheet a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 75px;
+}
+
+.adv-sheet a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.adv-sheet span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 75px;
 }
