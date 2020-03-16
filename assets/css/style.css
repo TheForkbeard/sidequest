@@ -3,11 +3,21 @@ body {
     }
 /* Navbar */
 
-.navalert-container {
-    position: static;
+header {
+    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 100;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navalert-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
     padding-left: 0;
     padding-right: 0;
 }
@@ -16,7 +26,7 @@ body {
     
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(0, 30, 9, 0.8);
+    background-color: rgba(0, 30, 9, .9);
     border: 0;
 }
 
@@ -32,8 +42,42 @@ body {
     font-weight: bold;
 }
 
+section {
+    padding-top: 55px;
+}
+
 /* footer */
 
+footer {
+    background-color: #003009;
+    color: #ffffff;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
 
 
 /* hero image styles adapted from love running walkthrough */
@@ -81,7 +125,7 @@ body {
 
     background-color: rgba(0, 30, 9, 0.8);
 
-    top: 30px;
+    top: 60px;
     left: 30px;
     
     position: absolute;
