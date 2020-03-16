@@ -1,7 +1,11 @@
-#Side Quest
+#Side Quest#
 An RPG quest and encounter website Maybe Magazine.
 
-##User Stories
+##User Stories##
+
+As the website owner I want to share quest story ideas with fellow games masters in the online RPG community,
+
+so other games masters can find quests quickly and easily for their parties entertainment.
 
 As a user I want to Access an idea for a quest for my party of Roleplaying characters.
 
@@ -31,50 +35,41 @@ As a user I want links to Side Quests Social media.
 
 So that I can see Side Quests social media post for information
 
-As a user I want to be able to provide feedback.
+As a user I want to be able to provide feedback and subscribe to a newsletter,
 
-So that the site will be more user centric in future
+So that the site will be more user centric in future and I can receive updates on new quests available and site developments.
 
-As a user I want to subscribe to a newsletter.
-
-So that I can receive updates on new quests available and site developments.
-
-As a user I want to submit my ideas for plot hooks.
+As a user I want to submit my ideas for plot hooks, quest Ideas, platforms, Adversaries and rewards.
 
 So the site can display them to the growing community.
 
-As a user I want to submit my ideas for quest Ideas.
-
-So the site can display them to the growing community.
-
-As a user I want to submit my ideas for platforms.
-
-So the site can display them to the growing community.
-
-As a user I want to submit my ideas for Adversaries.
-
-So the site can display them to the growing community.
-
-As a user I want to submit my ideas for rewards.
-
-So the site can display them to the growing community.
-
-##First release
+##First release##
 landing page 
-sample quest page
+/*sample quest page*//*removed in late planning stages*/
 contact us
 6 no. quest pages over 2 platforms
 
-##future releases
+##Planning##
+I started by choosing this idea out of the few that I had using the table points system.
+
+I then used the table points system and choice graph to simplify down to 20 or so pages.
+
+I then took the obviouly good advice of my mentor to simplify down to the 8 pages I now have.
+
+I have provided my wireframe in plans/side-quest-wireframe.bmpr 
+
+This does not display in the git workspace so Please let me know if I need to provide a different link.
+
+##future releases##
 more quest 
 more platforms
 interactive elements
 user content 
 
-##bibliography
+##Credits##
 bootstrap
 font awsome
-Roll 20
 google fonts
 Dungeons and Dragons
 Pathfinder
+Roll 20
