@@ -49,68 +49,142 @@
 
     </header>
     
-    <section>
+    <section class="container-fluid">
+        <div class="row quest-info">
+            <div class="col"> 
     <!--Title and intro-->
-        <div>
-            <h1>Collect Diamonds</h1>
-            <p>Our local Clerics union is in the market for Diamonds for revival spells. There is an Orc diamond mine up in the moutains that can be sourced from.</p>
+                <div>
+                    <h1>Collect Diamonds</h1>
+                    <p>Our local Clerics union is in the market for Diamonds for revival spells. There is an Orc diamond mine up in the moutains that can be sourced from.</p>
         
+                </div>
+            </div>
         </div>
         <!--location-->
-        <div>
+        <div class="row quest-info">
+            <div class="col"> 
             <h2>Location</h2>
             <p>Deep into the mountain range a few days travel away
                 To get there the party needs to follow the main road until the main mining track leads up the valley</p>
-        
+            </div>
         </div>
         <!--layout-->
-        <div>
-            <h2>Layout</h2>
-            <p>Basiclly there is only 6 encounter areas these are as follows.</p>
-            <ol>
-                <li>Entrance</li>
-                <li>First room with wide exit ahead on top of the entrance used.</li>
-                <li>Second room from the wide exit with 2 wide exits left and right on top of the entrance.</li>
-                <li>Third room from the left exit temimal </li>
-                <li>Forth room from the wide right exit with wide exit ahead</li>
-                <li>Fifth room Mine store room</li>
-            </ol>
+        <div class="row quest-layout">
+            <div class="col-12 col-md-4">
+                <div class="map">
+                    <img src="assets/images/medmap.png" height="300" width="400">
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <h2>Layout</h2>
+                <p>Basiclly there is only 6 encounter areas these are as follows.</p>
+                <ol>
+                    <li>Entrance</li>
+                    <li>First room with wide exit ahead on top of the entrance used.</li>
+                    <li>Second room from the wide exit with 2 wide exits left and right on top of the entrance.</li>
+                    <li>Third room from the left exit temimal </li>
+                    <li>Forth room from the wide right exit with wide exit ahead</li>
+                    <li>Fifth room Mine store room</li>
+                </ol>
+            </div>
         </div>
         <!--adversaries-->
-        <div>
-            <h2>Adversaries</h2>
-            <p>The parties adversaries will be various Orc mining types</p>
-            <ol>
-                <li>
-                    <h3>Entrance</h3>
-                    <p>6 no. organised Orc guards</p>
-                </li>
-                <li>
-                    <h3>First room </h3>
-                    <p>10 no. Barracked orc guards</p>
-                </li>
-                <li>
-                    <h3>Second room</h3>
-                    <p>20 no. barracked orc miners</p>
-                </li>
-                <li>
-                    <h3>Third room</h3>
-                    <p>4 no. orc house guards 
-                        1 no. Orc boss</p>
-                </li>
-                <li>
-                    <h3>Forth room </h3>
-                    <p>Booty storage 
-                        Gold
-                        2 no. weapons
-                        Potions</p>
-                </li>
-                <li>
-                    <h3>Fifth room </h3>
-                    <p>10 no. Orc miners come from mine if party is noisy
-                        Diamond storage </p>
-                </li>
-            </ol>
+        <div class="row no-gutters adversaries">
+            <div class="col">
+                <h2>Adversaries</h2>
+                <p>The parties adversaries will be various Orc mining types</p>
+                <ol id="adv" class="adv-container">
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>Entrance</h3>
+                                <p>6 no. organised Orc guards</p>
+                            </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-1 adv-sheet">
+                                <a href="assets/pdf/orc-guard.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Orc Guard PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                        <h3>First room </h3>
+                        <p>10 no. Barracked orc guards</p>
+                        </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-2 adv-sheet">
+                                <a href="assets/pdf/orc-guard.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Orc Guard PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                        <h3>Second room</h3>
+                        <p>20 no. barracked orc miners</p>
+                        </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-3 adv-sheet">
+                                <a href="assets/pdf/orc-miner.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Orc Miner PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                        <h3>Third room</h3>
+                        <p>4 no. orc house guards 
+                            1 no. Orc boss</p>
+                            </div>
+                            <div class="col-6 col-md-3 adv-sheet-color-4 adv-sheet">
+                                <a href="assets/pdf/orc-guard.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Orc Guard PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3 adv-sheet-color-7 adv-sheet">
+                                <a href="assets/pdf/orc-war-chief.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Orc Boss PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>Forth room </h3>
+                                <p>Booty storage 
+                                    Gold
+                                    2 no. weapons
+                                    Potions</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                        <h3>Fifth room </h3>
+                        <p>10 no. Orc miners come from mine if party is noisy
+                            Diamond storage </p>
+                            </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-6 adv-sheet">
+                                <a href="assets/pdf/orc-miner.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Orc Miner PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </div>
         </div>
     </section>
     <!--This footer is adapted from the Resume lessons-->
