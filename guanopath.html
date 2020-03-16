@@ -22,7 +22,7 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Available Quests
@@ -31,7 +31,7 @@
                             <a class="dropdown-item" href="guanodnd.html">D&D Low Level</a>
                             <a class="dropdown-item" href="diamonddnd.html">D&D Mid level</a>
                             <a class="dropdown-item" href="eyednd.html">D&D High Level</a>
-                            <a class="dropdown-item" href="guanopath.html">Pathfinder Low Level</a>
+                            <a class="active dropdown-item" href="guanopath.html">Pathfinder Low Level</a>
                             <a class="dropdown-item" href="diamondpath.html">Pathfinder Mid Level</a>
                             <a class="dropdown-item" href="eyepath.html">Pathfinder High Level</a>
                         </div>
@@ -49,72 +49,152 @@
 
     </header>
     
-    <section>
+<!--This will be bootstrap styled on guanodnd.html and copied to all 5 other quest pages-->    
+    <section class="container-fluid">
+        <div class="row quest-info">
+            <div class="col">   
     <!--Title and intro-->
-        <div>
-            <h1>Collect Bat Guano</h1>
-            <p></p>
-        
+                <div>
+                    <h1 class="text-align center">Collect Bat Guano</h1>
+                    <p>The basis of the ever popular <strong>Fireball</strong> spell, all the easy harvest locations are usually dry. We at Side Quest have found you a rich location to harvest some.</p>
+                </div>
+            </div>
         </div>
         <!--location-->
-        <div>
-            <h2>Location</h2>
-            <p>In the hills above the orchard by the river is a cave system where bats are prolific. 
-To get there the party needs to follow the river past the orchard where they must find the track to cave system.</p>
+            
+        <div class="row quest-info">    
+            <div class="col">
+                <h2>Location</h2>
+                <p>In the hills above the orchard by the river is a cave system where bats are prolific. 
+                    To get there the party needs to follow the river past the orchard where they must find the track to cave system.</p>
         
+            </div>
         </div>
         <!--layout-->
-        <div>
-            <h2>Layout </h2>
-            <p>Basiclly there is only 6 encounter areas these are as follows.</p>
-            <ol>
-                <li>Entrance</li>
-                <li>First room with wide exit to the left and narrow exit to the right on top of the entrance used.</li>
-                <li>Second room from the wide exit with 2 wide exits left and right on top of the entrance.</li>
-                <li>Third room from the left exit temimal</li>
-                <li>Forth room from the wide right exit terminal</li>
-                <li>Fifth room the guano room</li>
-            </ol>
+        <div class="row quest-layout">
+            <div class="col-12 col-md-4">
+                <div class="map">
+                    <img src="assets/images/lowmap.png" height="300" width="400">
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <h2>Layout </h2>
+                <p>Basiclly there is only 6 encounter areas these are as follows.</p>
+                <ol>
+                    <li>Entrance</li>
+                    <li>First room with wide exit to the left and narrow exit to the right on top of the entrance used.</li>
+                    <li>Second room from the wide exit with 2 wide exits left and right on top of the entrance.</li>
+                    <li>Third room from the left exit temimal</li>
+                    <li>Forth room from the wide right exit terminal</li>
+                    <li>Fifth room the guano room</li>
+                </ol>
+            </div>
         </div>
-        <!--adversaries-->
-        <div>
-            <h2>Adversaries</h2>
-            <ol>
-                <li>
-                    <h3>Entrance</h3>
-                    <p>2 no. Goblin guards</p>
-                
-                </li>
-                <li>
-                    <h3>First room </h3>
-                    <p>4 no. Goblin raiders</p>
-                </li>
-                <li>
-                    <h3>Second room</h3>
-                    <p>4 no. Goblin acolytes</p>
-                </li>
-                <li>
-                    <h3>Third room</h3>
-                    <p>2 no. goblin house guards 
-                        1 no. hobgoblin boss</p>
-                </li>
-                <li>
-                    <h3>Forth room </h3>
-                    <p>Booty storage 
-                        Gold
-                        2 no. weapons
-                        Potions</p>
-                </li>
-                <li>
-                    <h3>Fifth room </h3>
-                    <p>4 no. swarms of bats woken if party is noisy</p>
-                </li>
+        <!--adversaries ok rows inside rows getting exciting, this is adapted from the resume walkthrough including download buttons-->
+        <!--changed my mind about adding pictures just going for colourful buttons-->
+        <div class="row no-gutters adversaries">
+            <div class="col">
+                <h2>Adversaries</h2>
+                <ol id="adv" class="adv-container">
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>Entrance</h3>
+                                <p>2 no. Goblin guards</p>
+                            </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-1 adv-sheet">
+                                <a href="assets/pdf/goblin-guard.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download goblin Guard PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>First room </h3>
+                                <p>4 no. Goblin raiders</p>
+                            </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-2 adv-sheet">
+                               <a href="assets/pdf/goblin.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download goblin Raider PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>Second room</h3>
+                                <p>4 no. Goblin acolytes</p>
+                            </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-3 adv-sheet">
+                                <a href="assets/pdf/goblin-acolyte.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Goblin Acolyte PDF Statistic sheet here</span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>Third room</h3>
+                                <p>2 no. goblin house guards 
+                                1 no. hobgoblin boss</p>
+                            </div>
+                            <div class="col-6 col-md-3 adv-sheet-color-4 adv-sheet">
+                                <a href="assets/pdf/goblin-guard.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download goblin Guard PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                            <div class="col-6 col-md-3 adv-sheet-color-7 adv-sheet">
+                                <a href="assets/pdf/hobgoblin.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Hobgoblin Boss PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>Forth room </h3>
+                                <p>Booty storage 
+                                Gold
+                                2 no. weapons
+                                Potions</p>
+                            </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-5 adv-sheet">
+                                <p>Add treasure and magic items that your Party need and will enjoy</p> 
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>    Fifth room </h3>
+                                <p>4 no. swarms of bats woken if party is noisy</p>
+                            </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-6 adv-sheet">
+                                <a href="assets/pdf/swarm-of-bats.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Swarm of Bats PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
                 
             
-            </ol>
-        
-        </div>      
+                </ol>
 
+        
+            </div>
+        </div>
 
     </section>
     <!--This footer is adapted from the Resume lessons-->

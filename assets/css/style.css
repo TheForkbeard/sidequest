@@ -32,6 +32,10 @@ body {
     font-weight: bold;
 }
 
+/* footer */
+
+
+
 /* hero image styles adapted from love running walkthrough */
 
 #hero-image {
@@ -84,16 +88,16 @@ body {
 
 }
 
-/* rows */
+/* rows *//*colours *//* adapted from resume walkthrough*/
 
 .referrals h2{
     background-color: #ffffff;
-    color: #003009
+    color: #003009;
 }
 
 .referrals {
     background-color: #ffffff;
-    color: #003009
+    color: #003009;
 
 }
 
@@ -101,6 +105,50 @@ body {
     background-color: #003009;
     color: #ffffff;
 
+}
+
+.quest-info {
+    background-color: #003009;
+    color: #ffffff;
+}
+
+.quest-layout {
+    background-color: #ffffff;
+    color: #003009;
+}
+
+
+.adversaries {
+    background-color:  #003009;
+    color: #ffffff;
+}
+
+.adv-sheet-color-1 {
+    background-color: yellow;
+}
+
+.adv-sheet-color-2 {
+    background-color: blue;
+}
+
+.adv-sheet-color-3 {
+    background-color: orangered;
+}
+
+.adv-sheet-color-4 {
+    background-color: purple;
+}
+
+.adv-sheet-color-5 {
+    background-color: darkslategrey;
+}
+
+.adv-sheet-color-6 {
+    background-color: green;
+}
+
+.adv-sheet-color-7 {
+    background-color: red;
 }
 
 /* contact us page mostly from love running walkthrough */
@@ -174,56 +222,21 @@ body {
     
 }
 
-/*colours *//* adapted from resume walkthrough*/
+/* Quest page non color styling */
 
-.adversaries {
-    background-color:  #003009;
-    color: #ffffff;
+.quest-info {
+    text-align: center;
 }
 
-.adv-sheet-color-1 {
-    background-color: yellow;
+h2 {
+    text-align: center;
 }
 
-.adv-sheet-color-2 {
-    background-color: blue;
-}
-
-.adv-sheet-color-3 {
-    background-color: orangered;
-}
-
-.adv-sheet-color-4 {
-    background-color: purple;
-}
-
-.adv-sheet-color-5 {
-    background-color: darkslategrey;
-}
-
-.adv-sheet-color-6 {
-    background-color: green;
-}
-
-.adv-sheet-color-7 {
-    background-color: red;
+h3 {
+    text-align: center;
 }
 
 /* download button styling */
-
-.adv-container {
-    font-size: 0;
-}
-
-
-#adv li {
-    font-size: 14px;
-    padding: 0;
-}
-
-#adv {
-    margin: 0;
-}
 
 .adv-sheet {
     margin: 0;
