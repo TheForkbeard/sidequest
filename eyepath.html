@@ -49,51 +49,95 @@
 
     </header>
     
-    <section>
+    <section class="container-fluid">
+        <div class="row quest-info">
+            <div class="col"> 
     <!--Title and intro-->
-        <div>
-            <h1>Collect basalisk Eyes</h1>
-            <p>The Wizards need Basalisk eyes for their nefarious spells. there is an island nearby where they dwell</p>
+                <div>
+                    <h1>Collect basalisk Eyes</h1>
+                     <p>The Wizards need Basalisk eyes for their nefarious spells. there is an island nearby where they dwell</p>
         
+                </div>
+            </div>
         </div>
         <!--location-->
-        <div>
-            <h2>Location</h2>
-            <p>On an Island a few days travel away
+        <div class="row quest-info">
+            <div class="col"> 
+                <h2>Location</h2>
+                <p>On an Island a few days travel away
                 To get there the party needs to rent a boat and sail to the location</p>
         
+            </div>
         </div>
         <!--layout-->
-        <div>
-            <h2>Layout </h2>
-            <p>Basiclly there is only 3 encounter areas these are as follows.</p>
-            <ol>
-                <li>Beach</li>
-                <li>Trail</li>
-                <li>Plaza</li>
-            </ol>
+        <div class="row quest-layout">
+            <div class="col-12 col-md-4">
+                <div class="map">
+                    <img src="assets/images/highmap.png" height="300" width="400">
+                </div>
+            </div>
+            <div class="col-12 col-md-8">
+                <h2>Layout </h2>
+                <p>Basiclly there is only 3 encounter areas these are as follows.</p>
+                <ol>
+                    <li>Beach</li>
+                    <li>Trail</li>
+                    <li>Plaza</li>
+                </ol>
+            </div>
         </div>
         <!--adversaries-->
-        <div>
-            <h2>Adversaries</h2>
-            <p>There are many different types of adversaries upon this island</p>
-            <ol>
-                <lil>
-                    <h3>Beach</h3>
-                    <p>Giant crabs</p>
-                </lil>
-                <lil>
-                    <h3>Trail</h3>
-                    <p>Shambling mounds
-                        Creaping vines</p>
-                </lil>
-                <lil>
-                    <h3>Plaza</h3>
-                    <p>An area of chewed statues with 
-                        4 to 10 bassalisks</p>
-                </lil>
-            </ol>
-        
+        <div class="row no-gutters adversaries">
+            <div class="col">
+                <h2>Adversaries</h2>
+                <p>There are many different types of adversaries upon this island</p>
+                <ol id="adv" class="adv-container">
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>Beach</h3>
+                                <p>Giant crabs</p>
+                        </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-1 adv-sheet">
+                                <a href="assets/pdf/giant-crab.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Giant Crab PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>Trail</h3>
+                                <p>Shambling mounds
+                                    Creaping vines</p>
+                            </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-2 adv-sheet">
+                                <a href="assets/pdf/shambling-mound.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Shambling Mounds PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <h3>Plaza</h3>
+                                <p>An area of chewed statues with 
+                                4 to 10 Basilisks</p>
+                        </div>
+                            <div class="col-12 col-md-6 adv-sheet-color-3 adv-sheet">
+                                <a href="assets/pdf/basilisk.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                                    <i class="" aria-hidden="true"></i>
+                                    <span>Download Basilisk PDF Statistic sheet here</span>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </div>
         </div>
     </section>
     <!--This footer is adapted from the Resume lessons-->
