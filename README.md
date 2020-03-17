@@ -1,7 +1,26 @@
-#Side Quest#
+# Side Quest
+
 An RPG quest and encounter website Maybe Magazine.
 
-##User Stories##
+
+## UX
+
+Who is the site for? 
+
+what do they want to achieve?
+
+### Planning
+I started by choosing this idea out of the few that I had using the table points system.
+
+I then used the table points system and choice graph to simplify down to 20 or so pages.
+
+I then took the obviouly good advice of my mentor to simplify down to the 8 pages I now have.
+
+I have provided my wireframe in plans/side-quest-wireframe.bmpr 
+
+This does not display in the git workspace so Please let me know if I need to provide a different link.
+
+### User Stories
 
 As the website owner I want to share quest story ideas with fellow games masters in the online RPG community,
 
@@ -43,33 +62,57 @@ As a user I want to submit my ideas for plot hooks, quest Ideas, platforms, Adve
 
 So the site can display them to the growing community.
 
-##First release##
+## Features
+
+In this section, I need go over the different parts of my project, and describe each in a sentence or so.
+
+### Existing Features
+
+feature 1 - Allows x to achieve y
+
+#### First release
 landing page 
 /*sample quest page*//*removed in late planning stages*/
 contact us
 6 no. quest pages over 2 platforms
 
-##Planning##
-I started by choosing this idea out of the few that I had using the table points system.
+### Features to be Implemented
 
-I then used the table points system and choice graph to simplify down to 20 or so pages.
-
-I then took the obviouly good advice of my mentor to simplify down to the 8 pages I now have.
-
-I have provided my wireframe in plans/side-quest-wireframe.bmpr 
-
-This does not display in the git workspace so Please let me know if I need to provide a different link.
-
-##future releases##
+#### future releases
 more quest 
 more platforms
 interactive elements
 user content 
 
-##Credits##
-bootstrap
+## Techologies Used
+
+HTML
+CSS
+Bootstrap
 font awsome
 google fonts
+
+## Testing
+
+none yet
+
+## Deployment
+
+none yet
+
+
+
+## Credits
+
+### content
 Dungeons and Dragons
 Pathfinder
 Roll 20
+
+### Media
+Roll 20
+
+### Acknowledgements
+
+
+
