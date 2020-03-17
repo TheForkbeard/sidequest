@@ -86,6 +86,11 @@ footer {
 
 /* Headings and full site styles*/
 
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
 h2 {
     text-align: center;
     padding-bottom: 30px;
@@ -278,18 +283,17 @@ h3 {
     color: #003009;
 }
 
-
 .adversaries {
     background-color:  #003009;
     color: #ffffff;
 }
 
 .adv-sheet-color-1 {
-    background-color: yellow;
+    background-color: purple;
 }
 
 .adv-sheet-color-2 {
-    background-color: blue;
+    background-color: green;
 }
 
 .adv-sheet-color-3 {
@@ -309,23 +313,23 @@ h3 {
 }
 
 .adv-sheet-color-7 {
-    background-color: red;
+    background-color: orangered;
 }
 /* Quest page non color styling */
 
-.quest-info {
+.quest-info p {
+    font-size: 110%;
+    letter-spacing: 1px;
     text-align: center;
 }
-
-
-
+.adversaries ol {
+    list-style-type: none;
+}
 /* download button styling */
-
+/*
 .adv-sheet {
-    margin: 0;
     height: 75px;
     text-align: center;
-    padding: 0;
 }
 
 .adv-sheet a {
@@ -351,7 +355,7 @@ h3 {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
-}
+}*/
 
 /*--------------------------------------------Hover.css*/
 
