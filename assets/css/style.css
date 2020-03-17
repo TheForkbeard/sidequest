@@ -84,6 +84,25 @@ footer {
     background: #e84610;
 }
 
+.credits a {
+    
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.credits a:hover {
+    color: #ffffff;
+}
+
+.dropdown-menu {
+    background-color: rgba(025, 100, 0, 0.8);
+    
+}
+
+.dropdown-menu a {
+    color: #ffffff;
+}
+
 /* Headings and full site styles*/
 
 h1 {
@@ -305,6 +324,9 @@ h3 {
 }
 
 .adv-sheet-color-5 {
+    height: 100px;
+    width: 90%;
+    text-align: center;
     background-color: darkslategrey;
 }
 
@@ -325,37 +347,31 @@ h3 {
 .adversaries ol {
     list-style-type: none;
 }
+
+.adv-container p {
+    font-size: 110%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
 /* download button styling */
 
 .adv-sheet  {
     height: 100px;
-    width: 50%;
+    width: 90%;
     text-align: center;
         
 }
 
 .download-button {
     height: 100px;
-    width: 50%;
+    width: 90%;
     text-decoration: none;
     color: #fff;
-    
-}
-
-
-
-
-/*
-.adv-sheet {
-    height: 75px;
-    text-align: center;
-}
-
-.adv-sheet a {
-    width: 100%;
-    text-decoration: none;
-    color: #fff;
-    height: 75px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .adv-sheet a i {
@@ -374,5 +390,12 @@ h3 {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
-}*/
+}
+
+.download-button:hover {
+    background-color: #259900;
+    color: #ffffff;
+}
+
+
 
