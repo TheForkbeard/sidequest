@@ -293,7 +293,7 @@ h3 {
 }
 
 .adv-sheet-color-2 {
-    background-color: green;
+    background-color: blue;
 }
 
 .adv-sheet-color-3 {
@@ -309,7 +309,7 @@ h3 {
 }
 
 .adv-sheet-color-6 {
-    background-color: green;
+    background-color: blue;
 }
 
 .adv-sheet-color-7 {
@@ -326,6 +326,25 @@ h3 {
     list-style-type: none;
 }
 /* download button styling */
+
+.adv-sheet  {
+    height: 100px;
+    width: 50%;
+    text-align: center;
+        
+}
+
+.adv-sheet a .download-button {
+    height: 100px;
+    width: 50%;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+
+
 /*
 .adv-sheet {
     height: 75px;
@@ -357,9 +376,3 @@ h3 {
     letter-spacing: 2px;
 }*/
 
-/*--------------------------------------------Hover.css*/
-
-.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 75px;
-}
