@@ -26,7 +26,7 @@ header {
     
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(25, 99, 0, 0.9);
+    background-color: #259900;
     border: 0;
 }
 
@@ -84,6 +84,23 @@ footer {
     background: #e84610;
 }
 
+/* Headings and full site styles*/
+
+h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.container-fluid {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
 
 /* hero image styles adapted from love running walkthrough */
 
@@ -103,6 +120,7 @@ footer {
     width: 100%;
     overflow: hidden;
     position: relative;
+    
 }
 
 @keyframes hero-zoom {
@@ -124,7 +142,7 @@ footer {
     text-align: center;
 
     width: 300px;
-    height: 300px;
+    height: 360px;
 
     padding: 10px;
 
@@ -137,30 +155,24 @@ footer {
 
 }
 
-.container-fluid {
-    margin: 0;
-    padding-left: 0;
-    padding-right: 0;
-}
 
-/* rows *//*colours *//* adapted from resume walkthrough*/
+
+/* Landing text *//*colours *//* mostly adapted from Whiskey Drop walkthrough*/
 
 .referrals h2{
     background-color: #ffffff;
     color: #003009;
-    padding: 10px;
+    padding-bottom: 60px;
 }
 
 .referrals {
     background-color: #ffffff;
     color: #003009;
-
+    padding-bottom: 60px;
 }
 
 .plot-hooks {
-    padding-left: 0;
-    padding-right: 0;
-    margin: 0;
+    padding: 30px;
     width: 100%;
 
     background-color: #003009;
@@ -168,48 +180,13 @@ footer {
     
 }
 
-.quest-info {
-    background-color: #003009;
-    color: #ffffff;
+.hook-intro {
+    font-size: 110%;
 }
 
-.quest-layout {
-    background-color: #ffffff;
-    color: #003009;
-}
-
-
-.adversaries {
-    background-color:  #003009;
-    color: #ffffff;
-}
-
-.adv-sheet-color-1 {
-    background-color: yellow;
-}
-
-.adv-sheet-color-2 {
-    background-color: blue;
-}
-
-.adv-sheet-color-3 {
-    background-color: orangered;
-}
-
-.adv-sheet-color-4 {
-    background-color: purple;
-}
-
-.adv-sheet-color-5 {
-    background-color: darkslategrey;
-}
-
-.adv-sheet-color-6 {
-    background-color: green;
-}
-
-.adv-sheet-color-7 {
-    background-color: red;
+.hook-picture {
+    text-align: center;
+    padding-bottom: 60px;
 }
 
 /* contact us page mostly from love running walkthrough */
@@ -219,7 +196,12 @@ footer {
     background: url("../images/contactusback.jpg");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 1200px;
+}
+
+.form-section h1 {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 .contact-us {
@@ -275,29 +257,67 @@ footer {
     color: #ffffff;
 
     width: 350px;
-    height: 125px;
+    height: 175px;
 
-    padding: 10px;
+    padding: 15px;
+
 
     background-color: rgba(0, 30, 9, 0.8);
     
 }
 
+/* quest pages syling. mostly my code but using the thirds artistic convention as inspration */
+
+.quest-info {
+    background-color: #003009;
+    color: #ffffff;
+}
+
+.quest-layout {
+    background-color: #ffffff;
+    color: #003009;
+}
+
+
+.adversaries {
+    background-color:  #003009;
+    color: #ffffff;
+}
+
+.adv-sheet-color-1 {
+    background-color: yellow;
+}
+
+.adv-sheet-color-2 {
+    background-color: blue;
+}
+
+.adv-sheet-color-3 {
+    background-color: orangered;
+}
+
+.adv-sheet-color-4 {
+    background-color: purple;
+}
+
+.adv-sheet-color-5 {
+    background-color: darkslategrey;
+}
+
+.adv-sheet-color-6 {
+    background-color: green;
+}
+
+.adv-sheet-color-7 {
+    background-color: red;
+}
 /* Quest page non color styling */
 
 .quest-info {
     text-align: center;
 }
 
-h2 {
-    text-align: center;
-    
-}
 
-h3 {
-    text-align: center;
-    padding-bottom: 25px;
-}
 
 /* download button styling */
 
