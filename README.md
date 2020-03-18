@@ -1,13 +1,29 @@
 # Side Quest
 
-An RPG quest and encounter website Maybe Magazine.
+### An RPG quest and encounter website Maybe Magazine.
+
+Since the time of Gary Gygax; Dungeon Masters, Games Masters and Story tellers have been searching for quest and encounter ideas.
+
+Even now the Roleplaying table top platform can be played online through sites as Roll20, there is still few small quests and encpunters 
+
+to aid our dungeon masters.
+
+That is where we at **SIDEQUEST** Leap in to provide a teasing snippet now and with your help extend our repitour to provide more quest ideas in the future. 
 
 
 ## UX
 
-Who is the site for? 
+### Who is the site for? 
 
-what do they want to achieve?
+For the owner a Table top Roleplay game Dungeon Master wanting to share quest and Encounter Ideas.
+
+For Table Top Roleplay Game Dungeon Masters, Game Masters and Storytellers.
+
+### What do they want to achieve?
+
+The owner Wants to share their ideas of good quick small quests and encounters and recieve feedback and ideas from the community.
+
+The users want to recieve ideas for quick easy quests and share their own ideas, stories and quests.
 
 ### Planning
 I started by choosing this idea out of the few that I had using the table points system.
@@ -16,7 +32,9 @@ I then used the table points system and choice graph to simplify down to 20 or s
 
 I then took the obviouly good advice of my mentor to simplify down to the 8 pages I now have.
 
-I have provided my wireframe in plans/side-quest-wireframe.bmpr 
+I have provided my wireframe in
+
+plans/side-quest-wireframe.bmpr 
 
 This does not display in the git workspace so Please let me know if I need to provide a different link.
 
@@ -68,28 +86,48 @@ In this section, I need go over the different parts of my project, and describe 
 
 ### Existing Features
 
-feature 1 - Allows x to achieve y
+1. Feature- Landing Page- a fun introducton to the site to put the user at ease so they can feel free to explore the rest of the site.
+1. Feature- Available Quests- Quest suggestions for DM's To view and use for their parties.
+  1. Low level, quests for low level parties.
+  1. medium level quests for medium level parties.
+  1. high level quests for high level parties.
+  1. Quests for Dungeons & Dragons platform.
+  1. Quests for Pathfinder platform.
+1. Feature- Adversary PDF statistic sheet download buttons so users can download the adversary statisic sheet and have the information on hand easily.
+1. Feature- Form for Email address so users can recieve updates on new quests available and site developments.
+1. Feature- Check buttons and text input so users can submit their ideas for plot hooks, quest Ideas, platforms, Adversaries and rewards.
 
 #### First release
+
 landing page 
+
 /*sample quest page*//*removed in late planning stages*/
+
 contact us
+
 6 no. quest pages over 2 platforms
 
 ### Features to be Implemented
 
 #### future releases
-more quest 
+more quest
+
 more platforms
+
 interactive elements
+
 user content 
 
 ## Techologies Used
 
 HTML
+
 CSS
+
 Bootstrap
+
 font awsome
+
 google fonts
 
 ## Testing
@@ -98,21 +136,31 @@ none yet
 
 ## Deployment
 
-none yet
+https://theforkbeard.github.io/sidequest/
 
 
 
 ## Credits
 
 ### content
+
 Dungeons and Dragons
+
 Pathfinder
+
 Roll 20
 
 ### Media
+
 Roll 20
 
 ### Acknowledgements
+
+Dungeons and Dragons
+
+Pathfinder
+
+Roll 20
 
 
 
