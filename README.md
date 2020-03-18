@@ -144,6 +144,32 @@ https://theforkbeard.github.io/sidequest/
 
 ### content
 
+basilisk.pdf
+
+giant-crab.pdf
+
+Goblin.pdf
+
+goblin-acolyte.pdf
+
+goblin-guard.pdf
+
+hobgoblin.pdf
+
+orc-guard.pdf
+
+orc-miner.pdf
+
+orc-war-chief.pdf
+
+shambling-mound.pdf
+
+stone-cursed.pdf
+
+swarm-of-bats.pdf
+
+copied from below rules books and converted to PDF.
+
 Dungeons and Dragons
 
 Pathfinder
@@ -152,7 +178,39 @@ Roll 20
 
 ### Media
 
-Roll 20
+Photos- 
+
+Herocave.png
+
+Mysterious.png
+
+Questposter.png
+
+From 
+
+shutterstock.com Then edited to achieve desired results
+
+Contactusback.jpg
+
+From Paul Smith personal stock
+	
+Drawings-
+
+elminster.png 
+
+From Wizards of the Coast D&D Then edited to achieve desired results
+
+Stash.png 
+
+From Roll20 System token 
+
+lowmap.png
+
+Medmap.png
+
+Highmap.png
+
+Drawn by Paul Smith
 
 ### Acknowledgements
 
@@ -161,6 +219,18 @@ Dungeons and Dragons
 Pathfinder
 
 Roll 20
+
+Bootstrap
+
+font awsome
+
+google fonts
+
+## And Of Course **CODE INSTITUTE** 
+
+With thanks
+
+
 
 
 
