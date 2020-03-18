@@ -183,6 +183,17 @@ h3 {
 
 /* Landing text *//*colours *//* mostly adapted from Whiskey Drop walkthrough*/
 
+.introduction {
+    background-color: #003009;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.introduction p {
+    font-size: 150%;
+}
+
 .referrals h2{
     background-color: #ffffff;
     color: #003009;
