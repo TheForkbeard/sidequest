@@ -34,6 +34,7 @@ header {
 
 .dropdown-menu {
     margin-top: 7px;
+    margin-bottom: 15px;
 }
 
 section {
@@ -81,14 +82,14 @@ footer {
     background: #e84610;
 }
 
+.credits {
+    text-align: center;
+    padding: 15px;
+}
 .credits a {
     
     color: rgba(255, 255, 255, 0.5);
     font-weight: bold;
-}
-
-.credits a:hover {
-    color: #ffffff;
 }
 
 .dropdown-menu {
@@ -159,7 +160,7 @@ h1, h2, h3, h5 {
 
     background-color: rgba(0, 30, 9, 0.8);
 
-    top: 60px;
+    top: 105px;
     left: 15px;
     
     position: absolute;
@@ -209,6 +210,7 @@ h1, h2, h3, h5 {
 /* contact us page mostly from love running walkthrough */
 
 .form-section {
+    height: 900px;
     clear: left;
     background: url("../images/contactusback.jpg");
     background-size: cover;
@@ -217,11 +219,11 @@ h1, h2, h3, h5 {
 }
 
 .contact-us {
-
+    margin-top: 105px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 350px;
-    position: absolute;
+    
     padding:5px;
 }
 
@@ -247,33 +249,32 @@ h1, h2, h3, h5 {
 }
 
 .tell-us {
-    margin-top: 10px;
-    border-radius: 2px;
-    padding: 15px 30px 15px 30px;
+    margin-top: 15px;
+    margin-left: 125px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
     text-align: center;
     font-size: 100%;
     background-color: #003009;
     color: #ffffff;
-    display: block;
 }
 
 .tell-us:hover {
-    background-color: #ffffff;
+    background-color: #259900;
     color: #003009;
 }
 
 .contact-text {
+    margin-top: 150px;
+    margin-left: 15px;
     font-size: 100%;
     letter-spacing: 1px;
     text-align: center;
     color: #ffffff;
-
     width: 350px;
     height: 175px;
-
     padding: 15px;
-
-
     background-color: rgba(0, 30, 9, 0.8);
     
 }

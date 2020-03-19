@@ -51,11 +51,6 @@
         <!--Title and intro div-->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
-                    <h1 class="text-uppercase">Contact Us</h1>
-                </div>
-            </div>
-            <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="contact-text">
                         <p>We at Side Quest will always need your input, from letting us know what quests your party enjoy, to ideas for quests and encounters for us to offer to our gaming companions. </p>
@@ -74,40 +69,25 @@
                             
                             <h2>What are <strong>Your</strong> story needs!</h2>
                             <label for="fname">First Name:</label>
-                            <input class="text-input" type="text" name="first_name" id="fname" required>
+                            <input class="text-input" type="text" name="first_name" id="fname" placeholder="First Name" required>
                             <label for="lname">Last Name:</label>
-                            <input class="text-input" type="text" name="last_name" id="lname" required>
+                            <input class="text-input" type="text" name="last_name" id="lname" placeholder="Last Name" required>
                             <label for="email">Email Address:</label>
-                            <input class="text-input" type="email" name="email_address" id="email" required>
-                            <input type="checkbox" id="plot-hooks" name="plot-hooks" value="plot-hooks">
-                            <label for="plot-hooks"> Plot Hooks </label>
-                            <input type="checkbox" id="quest-ideas" name="quest-ideas" value="quest-ideass">
-                            <label for="quest-ideas"> Quest ideas </label>
-                            <input type="checkbox" id="platforms" name="platforms" value="platforms">
-                            <label for="platforms"> Platforms </label><br>
-                            <input type="checkbox" id="adversaries" name="adversaries" value="adversaries">
-                            <label for="adversaries"> Adversaries </label>
-                            <input type="checkbox" id="rewards" name="rewards" value="rewards">
-                            <label for="rewards"> Rewards </label>
-                            <textarea rows="5" name="user-ideas" id="user-ideas" class="form-control" placeholder="User Thoughts" required>
-                            We want Your thoughts!</textarea>
+                            <input class="text-input" type="email" name="email_address" id="email" placeholder="Email Address" required>
+                            <input type="checkbox" id="plot-hooks" name="plot-hooks" value="plot-hooks" class="mr-2">
+                            <label for="plot-hooks" class="mr-2"> Plot Hooks </label>
+                            <input type="checkbox" id="quest-ideas" name="quest-ideas" value="quest-ideass" class="mr-2">
+                            <label for="quest-ideas" class="mr-2"> Quest ideas </label>
+                            <input type="checkbox" id="platforms" name="platforms" value="platforms" class="mr-2">
+                            <label for="platforms" class="mr-2"> Platforms </label><br>
+                            <input type="checkbox" id="adversaries" name="adversaries" value="adversaries" class="mr-2">
+                            <label for="adversaries" class="mr-2"> Adversaries </label>
+                            <input type="checkbox" id="rewards" name="rewards" value="rewards" class="mr-2">
+                            <label for="rewards" class="mr-2"> Rewards </label>
+                            <textarea rows="5" name="user-ideas" id="user-ideas" class="form-control" placeholder="Your Thoughts" required></textarea>
                             <input class="tell-us" type="submit" value="Tell us!!">
             
                         </form>
-
-            <!--Plot Hooks
-            Quest ideas
-            Platforms 
-            Adversaries 
-            Rewards
-            (can these be buttons?)
-
-            Full Name	
-            Email address	
-
-            Your ideas here
-
-            Submit button-->
         
                     </div>
                 </div>
@@ -120,14 +100,25 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Side Quest</h5>
-            
+                
+                <div class="credits dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="creditsDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Credits!
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="creditsDropdownMenuLink">
+                            <a class="dropdown-item" href="https://roll20.net" target="_blank">Roll20</a>
+                            <a class="dropdown-item" href="https://dnd.wizards.com/" target="_blank">Wizards of the Coast</a>
+                            <a class="dropdown-item" href="https://paizo.com/" target="_blank">Pathfinder</a>
+                            <a class="dropdown-item" href="https://www.shutterstock.com/" target="_blank">Shutterstock</a>
+                            <a class="dropdown-item" href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
+                            <a class="dropdown-item" href="https://fontawesome.com/" target="_blank">Font Awsome</a>
+                            <a class="dropdown-item" href="https://codeinstitute.net/" target="_blank">Code Institute</a>
+                        </div>
+                </div>
             </div>
-            
-            
+
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Social</h5>
-                 <ul class="list-inline social-links">
+                <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="#">
                             <i class="fab fa-facebook" aria-hidden="true"></i>
@@ -151,10 +142,11 @@
             </div>
             <!--Is this the correct way to enploy copyright?-->
             <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Copyright Paul Smith 2020</h5>
+                <h5 class="uppercase general-sub"> <i class="far fa-copyright"></i> Copyright Paul Smith 2020</h5>
+            
             </div>
 
-
+        
         </div>
 
     </footer>
