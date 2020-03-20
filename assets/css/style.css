@@ -61,12 +61,12 @@ footer {
 }
 
 .social-links li a i {
-    width: 60px;
-    height: 60px;
-    padding: 15px;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
     border-radius: 50%;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 20px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
@@ -282,11 +282,13 @@ h1, h2, h3, h5 {
 /* quest pages syling. mostly my code but using the thirds artistic convention as inspration */
 
 .quest-info {
+    padding: 15px;
     background-color: #003009;
     color: #ffffff;
 }
 
 .quest-layout {
+    padding: 15px;
     background-color: #ffffff;
     color: #003009;
 }
