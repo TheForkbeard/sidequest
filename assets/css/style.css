@@ -79,7 +79,7 @@ footer {
 
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #003009;
 }
 
 .credits {
@@ -299,9 +299,6 @@ h1, h2, h3, h5 {
     color: #ffffff;
 }
 
-.adv-sheet-color {
-    color: #bbffbb
-}
 /* Quest page non color styling */
 
 .quest-info p {
@@ -311,6 +308,10 @@ h1, h2, h3, h5 {
 }
 .adversaries ol {
     list-style-type: none;
+}
+
+.adversaries p {
+    text-align: center;
 }
 
 .adv-container p {
