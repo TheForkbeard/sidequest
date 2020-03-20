@@ -289,6 +289,7 @@ h1, h2, h3, h5 {
 
 .quest-layout {
     padding: 15px;
+    text-align: center;
     background-color: #ffffff;
     color: #003009;
 }
@@ -298,35 +299,8 @@ h1, h2, h3, h5 {
     color: #ffffff;
 }
 
-.adv-sheet-color-1 {
-    background-color: purple;
-}
-
-.adv-sheet-color-2 {
-    background-color: blue;
-}
-
-.adv-sheet-color-3 {
-    background-color: orangered;
-}
-
-.adv-sheet-color-4 {
-    background-color: purple;
-}
-
-.adv-sheet-color-5 {
-    height: 100px;
-    width: 90%;
-    text-align: center;
-    background-color: darkslategrey;
-}
-
-.adv-sheet-color-6 {
-    background-color: blue;
-}
-
-.adv-sheet-color-7 {
-    background-color: orangered;
+.adv-sheet-color {
+    color: #bbffbb
 }
 /* Quest page non color styling */
 
@@ -347,16 +321,9 @@ h1, h2, h3, h5 {
 
 /* download button styling */
 
-.adv-sheet  {
-    height: 100px;
-    width: 90%;
-    text-align: center;
-        
-}
 
-.download-button {
-    height: 100px;
-    width: 90%;
+
+.download {
     text-decoration: none;
     color: #fff;
     transition: all 0.35s ease-in-out;
@@ -365,28 +332,28 @@ h1, h2, h3, h5 {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.adv-sheet {
+    text-align: center;
+}
+
 .adv-sheet a i {
-    padding-top: 22px;
-    display: block;
     color: #fafafa;
     font-size: 26px;
 }
 
-.adv-sheet span {
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
+.adv-sheet span {        
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
 }
 
-.download-button:hover {
-    background-color: #259900;
-    color: #ffffff;
+.download:hover {
+    color: #259900;
 }
 
+.download i:hover {
+    color: #259900;
+}
 
 
