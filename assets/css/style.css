@@ -332,22 +332,6 @@ h1, h2, h3, h5 {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.adv-sheet {
-    text-align: center;
-}
-
-.adv-sheet a i {
-    color: #fafafa;
-    font-size: 26px;
-}
-
-.adv-sheet span {        
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300;
-    letter-spacing: 2px;
-}
-
 .download:hover {
     color: #259900;
 }
