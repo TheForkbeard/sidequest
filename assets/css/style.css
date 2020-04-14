@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     }
 /* Navbar */
-
 header {
     position: fixed;
     width: 100%;
@@ -12,54 +11,42 @@ header {
     padding-left: 0;
     padding-right: 0;
 }
-
 .navbar {    
     margin-bottom: 0;
     width: 100%;
     background-color: #259900;
     border: 0;
 }
-
 .navbar .navbar-toggler {
     border: 0;
 }
-
 .navbar .navbar-brand {
     font-weight: bold;
 }
-
 .navbar .navbar-nav a {
     font-weight: bold;
 }
-
 .dropdown-menu {
     margin-top: 7px;
     margin-bottom: 15px;
 }
-
 section {
     padding-top: 55px;
 }
-
-
 /* footer */
-
 footer {
     background-color: #259900;
     color: #ffffff;
     min-height: 75px;
     margin: 0;
 }
-
 .blockquote-footer {
     background-color: #ffffff;
 }
-
 .social-links {
     text-align: center;
     padding-top: 15px;
 }
-
 .social-links li a i {
     width: 45px;
     height: 45px;
@@ -75,13 +62,9 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
-
-
 .social-links li a i:hover {
     background: #003009;
 }
-
 .credits {
     text-align: center;
     padding: 15px;
@@ -91,50 +74,38 @@ footer {
     color: rgba(255, 255, 255, 0.5);
     font-weight: bold;
 }
-
 .dropdown-menu {
     background-color: #259900;
     
 }
-
 .dropdown-menu a {
     color: #ffffff;
 }
-
 /* Headings and full site styles*/
-
 h1, h2, h3, h5 {
     text-align: center;
     padding: 15px;
 }
-
 .container-fluid {
     margin: 0;
     padding-left: 0;
     padding-right: 0;
 }
-
 /* hero image styles adapted from love running walkthrough */
-
 #hero-image {
     width: 100%;
     height: 600px;
     background: url("../images/herocave.png") no-repeat center center;
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-
 }
-
 #hero-outer {
     height:600px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    
 }
-
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -143,96 +114,68 @@ h1, h2, h3, h5 {
         transform: scale(1.1);
     }
 }
-
 #cover-text, #cover-text h2 {
     color: #ffffff;
 }
-
 #cover-text {
     font-size: 110%;
     letter-spacing: 4px;
     text-align: center;
-
     width: 300px;
     height: 450px;
-
     padding: 10px;
-
     background-color: rgba(0, 30, 9, 0.8);
-
     top: 105px;
     left: 15px;
-    
     position: absolute;
-
 }
-
-
-
 /* Landing text *//*colours *//* mostly adapted from Whiskey Drop walkthrough*/
-
 .introduction {
     background-color: #003009;
     color: #ffffff;
     text-align: center;
-
 }
-
 .introduction p {
     font-size: 150%;
     padding: 15px;
 }
-
 .referrals {
     background-color: #ffffff;
     color: #003009;
     padding: 15px;
 }
-
 .plot-hooks {
     padding: 15px;
     width: 100%;
-
     background-color: #003009;
     color: #ffffff;
-    
 }
-
 .hook-intro {
     font-size: 110%;
 }
-
 .hook-picture {
     text-align: center;
     padding-bottom: 15px;
 }
-
 /* contact us page mostly from love running walkthrough */
-
 .form-section {
     height: 900px;
     clear: left;
     background: url("../images/contactusback.jpg");
     background-size: cover;
     background-position: center;
-    
 }
-
 .contact-us {
     margin-top: 105px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 350px;
-    
     padding:5px;
 }
-
 .contact-us h2 {
     color: #fff;
     margin-bottom: 5px;
-  
 }
-
 .text-input {
     background-color: transparent;
     color: #fff;
@@ -241,13 +184,10 @@ h1, h2, h3, h5 {
     margin: 5px 0 10px 0;
     border: 1px solid #fff;
     border-radius: 2px;
-  
 }
-
 .text-input:hover {
     border-color: #003009;
 }
-
 .tell-us {
     margin-top: 15px;
     margin-left: 125px;
@@ -259,12 +199,10 @@ h1, h2, h3, h5 {
     background-color: #003009;
     color: #ffffff;
 }
-
 .tell-us:hover {
     background-color: #259900;
     color: #003009;
 }
-
 .contact-text {
     margin-top: 150px;
     margin-left: 15px;
@@ -276,31 +214,24 @@ h1, h2, h3, h5 {
     height: 175px;
     padding: 15px;
     background-color: rgba(0, 30, 9, 0.8);
-    
 }
-
 /* quest pages syling. mostly my code but using the thirds artistic convention as inspration */
-
 .quest-info {
     padding: 15px;
     background-color: #003009;
     color: #ffffff;
 }
-
 .quest-layout {
     padding: 15px;
     text-align: center;
     background-color: #ffffff;
     color: #003009;
 }
-
 .adversaries {
     background-color:  #003009;
     color: #ffffff;
 }
-
 /* Quest page non color styling */
-
 .quest-info p {
     font-size: 110%;
     letter-spacing: 1px;
@@ -309,21 +240,15 @@ h1, h2, h3, h5 {
 .adversaries ol {
     list-style-type: none;
 }
-
 .adversaries p {
     text-align: center;
 }
-
 .adv-container p {
     font-size: 110%;
     letter-spacing: 1px;
     text-align: center;
 }
-
 /* download button styling */
-
-
-
 .download {
     text-decoration: none;
     color: #fff;
@@ -332,11 +257,9 @@ h1, h2, h3, h5 {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 .download:hover {
     color: #259900;
 }
-
 .download i:hover {
     color: #259900;
 }
