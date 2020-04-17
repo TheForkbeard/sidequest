@@ -70,21 +70,21 @@ footer {
     padding: 15px;
 }
 .credits a {
-    
     color: rgba(255, 255, 255, 0.5);
     font-weight: bold;
 }
 .dropdown-menu {
     background-color: #259900;
-    
 }
 .dropdown-menu a {
     color: #ffffff;
 }
+.copyright {
+    padding-top: 25px;
+}
 /* Headings and full site styles*/
 h1, h2, h3, h5 {
     text-align: center;
-    padding: 15px;
 }
 .container-fluid {
     margin: 0;
@@ -122,7 +122,7 @@ h1, h2, h3, h5 {
     letter-spacing: 4px;
     text-align: center;
     width: 300px;
-    height: 450px;
+    height: 325px;
     padding: 10px;
     background-color: rgba(0, 30, 9, 0.8);
     top: 105px;
@@ -137,7 +137,8 @@ h1, h2, h3, h5 {
 }
 .introduction p {
     font-size: 150%;
-    padding: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .referrals {
     background-color: #ffffff;
@@ -166,7 +167,7 @@ h1, h2, h3, h5 {
     background-position: center;
 }
 .contact-us {
-    margin-top: 105px;
+    margin-top: 75px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 350px;
@@ -217,7 +218,9 @@ h1, h2, h3, h5 {
 }
 /* quest pages syling. mostly my code but using the thirds artistic convention as inspration */
 .quest-info {
-    padding: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #003009;
     color: #ffffff;
 }
@@ -230,6 +233,7 @@ h1, h2, h3, h5 {
 .adversaries {
     background-color:  #003009;
     color: #ffffff;
+    padding-top: 15px;
 }
 /* Quest page non color styling */
 .quest-info p {
