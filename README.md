@@ -25,7 +25,7 @@ That is where we at **SIDEQUEST** Leap in to provide a teasing snippet now and w
 1. I started by choosing this idea out of the few that I had using the table points system.
 1. I then used the table points system and choice graph to simplify down to 20 or so pages.
 1. I then took the obviouly good advice of my mentor to simplify down to the 8 pages I now have.
-1. I have provided my [wireframe] (plans/side-quest-wireframe.bmpr)
+1. I have provided my [wireframe](plans/side-quest-wireframe.bmpr)
     * This does not display in the git workspace so Please let me know if I need to provide a different link.
 
 ### User Stories
@@ -93,6 +93,10 @@ That is where we at **SIDEQUEST** Leap in to provide a teasing snippet now and w
 * [google fonts](https://fonts.google.com/)
 
 ## Testing
+
+I was most daunted by this process due to the views of testing done on other projects and it took a while for me to get my head around the testing processes. I hope this will help me with future testing.
+
+![project-testing-1.pdf](assets/pdf/project-testing-1.pdf)
 
 none yet
 
